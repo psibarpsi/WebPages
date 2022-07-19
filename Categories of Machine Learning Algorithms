@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Machine Learning Algorithms</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Noto Sans', sans-serif;
+            color: white;
+            background-color: black;
+
+            box-sizing: border-box;
+        }
+        
+        .container {
+            border: 5px solid red;
+            margin: 50px auto;
+        }
+        .algorithm {
+            border: 5px solid white;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .paragraph {
+            text-align: justify;
+        }
+
+        #mainHeading {
+            text-align: center;
+        }
+
+        #supervised {
+            float: left;
+            width: 45%;
+        }
+
+        #unsupervised {
+            float: right;
+            width: 45%;
+        }
+
+        #reinforcement {
+            float: bottom;
+            clear: both;
+            width: 97%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="mainHeading"> Machine Learning Algorithms </h1>
+    
+    <div class="container">
+        <div class="algorithm" id="supervised">
+            
+            <h3> Supervised Learning Algorithms </h3>
+
+            <p class="paragraph" id="supervisedParagraph">
+                Supervised learning, also known as supervised machine learning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately. As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately, which occurs as part of the cross validation process. Supervised learning helps organizations solve for a variety of real-world problems at scale, such as classifying spam in a separate folder from your inbox.
+            </p>
+        </div>
+
+        <div class="algorithm" id="unsupervised">
+
+            <h3> Unsupervised Learning Algorithms </h3>
+
+            <p class="paragraph" id="unsupervisedParagraph">
+                Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention. Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
+            </p>
+        </div>
+
+        <div class="algorithm" id="reinforcement">
+
+            <h3> Reinforcement Learning Algorithms </h3>
+
+            <p class="paragraph" id="reinforcementParagraph">
+                Reinforcement learning is a machine learning training method based on rewarding desired behaviors and/or punishing undesired ones. In general, a reinforcement learning agent is able to perceive and interpret its environment, take actions and learn through trial and error.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
