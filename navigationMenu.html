@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navigation Menu</title>
+
+    <style>
+        .navbar
+        {
+            background-color: rgb(255, 157, 255);
+            border-radius: 12px;
+        }
+
+        /* when you float things, they go out of their parents. To stop this:  */
+        .navbar ul 
+        {
+            overflow: auto;
+        }
+
+        .navbar li
+        {
+            float: left;
+
+            /* to remove those pesky and inelegant bullets: */
+            list-style: none;
+
+            padding: 5px;
+
+            margin: 6px 40px;
+        }
+
+        .navbar li a:hover 
+        {
+            color: rgb(213, 0, 213)
+        }
+
+        .searchBox
+        {
+                /* to remove those pesky and inelegant bullets: */
+                list-style: none;
+
+                padding: 5px;
+
+                margin: 6px 40px;
+
+                float: right;
+        }
+
+        li a
+        {
+            text-decoration: none;
+        }
+        
+        .searchBox
+        {
+            float: right;
+            color: white;
+        }
+
+        .search 
+        {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <!-- the links are random, don't pay a whole lot of attention to them lol -->
+                <li> <a href="https://linkedin.com/in/mohd-abbas-haidar" target="_blank"> Home </a> </li>
+                <li> <a href="https://twitter.com/psibarpsi" target="_blank"> Services </a> </li>
+                <li> <a href="https://linkedin.com/in/mohd-abbas-haidar" target="_blank"> About Us </a> </li>
+                <li> <a href="https://twitter.com/psibarpsi" target="_blank"> Contact Us </a> </li>
+
+                <div class="searchBox"> 
+                    <input class="search" type="text" name="search" placeholder="Looking for something?">
+                </div>
+            </ul>
+        </nav>
+    </header>    
+</body>
+</html>
